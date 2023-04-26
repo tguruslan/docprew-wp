@@ -1,0 +1,9 @@
+.rs_list .rs_list {display:none;}
+.rs_dir{cursor:pointer;}
+.rs_dir:before {content:"\f067"; color:#FFAA00; font-family:"FontAwesome"; margin-right:10px; font-size:16px;}
+.rs_dir.open:before {content:"\f068"; color:#FFAA00; font-family:"FontAwesome"; margin-right:10px; font-size:16px;}
+.rs_file a:before {content:"\f15c"; color:#1878D4; font-family:"FontAwesome"; margin-right:10px;font-size:16px;}
+.rs_file a[href$=".pdf"]:before                                                                            {content:"\f1c1" !important;}
+.rs_file a[href$=".xls"]:before, .rs_file a[href$=".xlsx"]:before                                          {content:"\f0ce" !important;}
+.rs_file a[href$=".doc"]:before, .rs_file a[href$=".docx"]:before, .rs_file a[href$=".rtf"]:before         {content:"\f15c" !important;}
+.rs_file a[href$=".rar"]:before, .rs_file a[href$=".zip"]:before                                           {content:"\f1c6" !important;}
